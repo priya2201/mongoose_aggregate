@@ -1,0 +1,102 @@
+Sure, let's define some example schemas for the collections we'll use in the aggregation queries.
+
+Example Schemas
+1. Employees Collection
+
+
+{
+  "_id": ObjectId("..."),
+  "name": "John Doe",
+  "age": 30,
+  "gender": "male",
+  "departmentId": ObjectId("..."),
+  "managerId": ObjectId("..."),
+  "projectId": ObjectId("..."),
+  "isActive": true
+}
+2. Departments Collection
+
+
+{
+  "_id": ObjectId("..."),
+  "name": "Engineering"
+}
+3. Managers Collection
+
+
+{
+  "_id": ObjectId("..."),
+  "name": "Jane Smith"
+}
+4. Projects Collection
+
+
+{
+  "_id": ObjectId("..."),
+  "title": "Project Alpha"
+}
+5. Orders Collection
+
+
+{
+  "_id": ObjectId("..."),
+  "userId": ObjectId("..."),
+  "productId": ObjectId("..."),
+  "quantity": 2,
+  "total": 200,
+  "shipperId": ObjectId("..."),
+  "customerId": ObjectId("...")
+}
+6. Products Collection
+
+
+{
+  "_id": ObjectId("..."),
+  "name": "Product X",
+  "price": 100
+}
+7. Customers Collection
+
+
+{
+  "_id": ObjectId("..."),
+  "name": "Customer Y",
+  "email": "customerY@example.com"
+}
+8. Shippers Collection
+
+
+{
+  "_id": ObjectId("..."),
+  "name": "Shipper Z"
+}
+9. Users Collection
+
+
+{
+  "_id": ObjectId("..."),
+  "name": "Alice",
+  "email": "alice@example.com",
+  "age": 25
+}
+10. Students Collection
+
+
+{
+  "_id": ObjectId("..."),
+  "name": "Bob",
+  "courseIds": [ObjectId("..."), ObjectId("...")]
+}
+11. Courses Collection
+
+
+{
+  "_id": ObjectId("..."),
+  "title": "Course A"
+}
+These schemas will help us frame the $lookup and aggregation queries effectively.
+
+
+
+
+
